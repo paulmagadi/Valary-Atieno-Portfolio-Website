@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="190.03844mm"
+   height="38.318245mm"
+   viewBox="0 0 718.25553 144.82486"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-32.995667,-150.44894)">
+    <g
+       id="g2"
+       transform="matrix(1.072586,0,0,1.072586,-10.541158,-19.435061)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:167.591px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;fill-opacity:0.999999;stroke-width:0.277434;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.9;paint-order:markers stroke fill"
+         x="35.960011"
+         y="285.94998"
+         id="text1"
+         transform="scale(0.97750649,1.0230111)"
+         inkscape:export-filename="favicon_ann.svg"
+         inkscape:export-xdpi="436.66095"
+         inkscape:export-ydpi="436.66095"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           x="35.960011"
+           y="285.94998"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:167.591px;font-family:'Bauhaus 93';-inkscape-font-specification:'Bauhaus 93, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.277434">&lt;A&gt;</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:137.038px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:0.999999;stroke-width:1.55382;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.9;paint-order:markers stroke fill"
+         x="366.39392"
+         y="241.1443"
+         id="text2"
+         transform="scale(0.84444154,1.1842146)"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           x="366.39392"
+           y="241.1443"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:137.038px;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:1.55382">ANNIE</tspan></text>
+    </g>
+  </g>
+</svg>
