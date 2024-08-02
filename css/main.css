@@ -182,45 +182,52 @@ body {
     color: rgb(255, 220, 174);
 }
 
-.about-section {
+.servies-section {
     position: relative;
-    padding: 6em 2em 0 0;
+    padding-top: 6em;
     background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
  
-.about-section .about-image-container {
+.servies-section .servies-image-container {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    width: 50%;
-    background-color: var(--background3);
+    width: 48%;
+    gap: 1em;
+    background-color: var(--tertiary-color);
     padding: 0;
     margin: 0;
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    border-top-right-radius: 100%;
+    border-right: 10px solid var(--primary-color);
+    border-top: 10px solid var(--primary-color);
 }
 
-.about-section .about-statement-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
+.servies-section .servies-statement-container {
+    width: 48%;
     padding: 1em;
 }
 
-.about-title {
-    align-self: flex-end;
-    border-bottom: 3px solid var(--primary1);
+.servies-title {
+    padding-bottom: 1em;
+    color: var(--primary-color);
     font-size: 2rem;
-    margin-bottom: 1em;
 }
 
+.services-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+}
 
-.about-section .about-statement-container p {
-    font-size: 1.2rem;
+.service {
+    width: 48%;
+    padding: .5em;
+    border: .5px solid var(--white-color);
 }
 
 
@@ -228,7 +235,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 6em 0 0 2em;
-    background-color: var(--tertiary-color);
+    background-color: var(--background-color);
 }
 
 .skills-title {
