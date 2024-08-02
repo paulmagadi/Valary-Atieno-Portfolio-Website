@@ -12,21 +12,13 @@ a {
 }
 
 :root {
-    --background1: hsla(41, 99%, 64%, 0.1);
-    --background2: hsla(41, 99%, 64%, 0.4);
-    --background3: rgb(182, 232, 232);
-    --yellow: hsl(41, 99%, 64%);
-    --orange-red_a20: hsla(19, 100%, 55%, 0.2);
-    --black-shade: hsl(210, 11%, 15%);
-    --primary1: hsl(10, 98%, 51%);
-    --gray: hsl(0, 0%, 33%);
-    --gray1: hsla(0, 0%, 100%, 0.8);
-    --gray2: hsla(0, 0%, 100%, 0.75);
-    --white1: hsla(0, 0%, 100%, 0.1);
-    --gray3: hsla(0, 0%, 22%, 0.1);
-    --black: hsl(0, 0%, 0%);
-    --white: hsl(0, 0%, 100%);
-    --dark2: hsl(0, 0%, 22%);
+    --primary-color: #CD752C;
+    --white-color: #F6F4F9;
+    --black-color: #1e1d1d;
+    --text-color: #000000;
+    --secondary-color: #FCA3B9;
+    --tertiary-color: #6184C6;
+    --shadow-color: #00000057;
 }
 
 html {
@@ -53,8 +45,8 @@ body {
 }
 
 .header.active {
-    background-color: var(--white); 
-    box-shadow: 0 2px 2px hsla(0, 1%, 31%, 0.08);
+    background-color: var(--white-color); 
+    box-shadow: 0 2px 2px var(--shadow-color);
 }
 
 .header .header-container {
@@ -71,7 +63,7 @@ body {
 }
 
 .header .logo-container a h1 {
-    color: var(--black-shade);
+    color: var(--primary-color);
     text-transform: uppercase;
     letter-spacing: 3px;
     transition: 0.25s ease;
@@ -89,11 +81,10 @@ body {
 }
 
 .header .navbar a:hover {
-    border-bottom: 2px solid var(--primary1);
+    border-bottom: 2px solid var(--primary-color);
 }
 
-
- .header .desktop-nav {
+.header .desktop-nav {
     display: flex;
 }
 
@@ -103,33 +94,21 @@ body {
 
 
 .primary-button  {
-    background-color: var(--primary1);
+    background-color: var(--primary-color);
     text-transform: uppercase;
     max-width: max-content;
     letter-spacing: 2px;
     padding: .7em 1.2em;
-    box-shadow: 6px 6px 0 -1px var(--black-shade, );
-    color: var(--white); 
+    box-shadow: 6px 6px 0 -1px var(--shadow-color, );
+    color: var(--white-color); 
     position: relative;
     display: inline-block;
 }
 
 .primary-button:hover {
-    background-color: var(--black-shade);
-    box-shadow: 5px 5px 0 -2px var(--primary1);
+    background-color: var(--shadow-color);
+    box-shadow: 5px 5px 0 -2px var(--primary-color);
 } 
-
-.tooltiptext {
-    visibility: hidden;
-    color: var(--black-shade);
-    text-align: center;
-    border-radius: 5px;
-    padding: .3em 1em;
-    position: absolute;
-    z-index: 50;
-    top: -70%;
-    left: 0;
-}
 
 .primary-button:hover .tooltiptext {
     visibility: visible;
