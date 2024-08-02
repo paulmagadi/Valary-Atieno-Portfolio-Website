@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="18.513098mm"
-   height="10.199898mm"
-   viewBox="0 0 69.970765 38.550795"
+   width="107.63422mm"
+   height="69.802444mm"
+   viewBox="0 0 406.8065 263.82027"
    version="1.1"
    id="svg1"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,16 +27,21 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-229.16645,-207.69061)">
+     transform="translate(-91.834726,-228.56953)">
     <text
        xml:space="preserve"
-       style="font-size:105.144px;font-family:'French Script MT';-inkscape-font-specification:'French Script MT, Normal';fill:#fe7300;fill-opacity:1;stroke:#fe7300;stroke-width:3.02362;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.9;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="230.88362"
-       y="243.03539"
-       id="text1"><tspan
+       style="font-size:310.829px;font-family:Harrington;-inkscape-font-specification:'Harrington, Normal';fill:#ff0000;fill-opacity:0.999999;stroke-width:0.514554;stroke-linecap:square;stroke-linejoin:bevel;stroke-miterlimit:4.9;paint-order:markers stroke fill"
+       x="86.240143"
+       y="438.38528"
+       id="text1"
+       transform="scale(0.98834049,1.0117971)"
+       inkscape:export-filename="text1.png"
+       inkscape:export-xdpi="436.66095"
+       inkscape:export-ydpi="436.66095"><tspan
          sodipodi:role="line"
          id="tspan1"
-         x="230.88362"
-         y="243.03539">va</tspan></text>
+         x="86.240143"
+         y="438.38528"
+         style="stroke-width:0.514554">&lt;A&gt;</tspan></text>
   </g>
 </svg>
