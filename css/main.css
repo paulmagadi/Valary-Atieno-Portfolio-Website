@@ -12,8 +12,9 @@ a {
 }
 
 :root {
-    --primary-color: #CD752C;
+    --primary-color: #fe7300;
     --white-color: #F6F4F9;
+    --backgroundss: rgb(182, 232, 232);
     --black-color: #1e1d1d;
     --text-color: #000000;
     --secondary-color: #FCA3B9;
@@ -121,8 +122,8 @@ body {
 .mobile-nav {
     display: none;
     background-color: var(--white);
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 2px solid var(--black-color);
+    border-bottom: 2px solid var(--black-color);
 }
 
 .mobile-nav a {
@@ -131,13 +132,13 @@ body {
 }
 
 .mobile-nav a:not(:last-of-type) {
-    border-bottom: 1px solid  var(--gray);
+    border-bottom: 1px solid  var(--shadow-color);
  } 
 
 
 .hero-container {
     position: relative;
-    background-color: var(--background1);
+    background-color: var(--backgroundss);
     overflow: hidden;
     padding: 6em 0 0 0;
     display: flex;
