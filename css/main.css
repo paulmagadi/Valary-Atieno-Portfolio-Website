@@ -16,6 +16,7 @@ a {
     --white-color: #F6F4F9;
     --gray-color: rgb(230, 229, 229);
     --background-color: rgb(182, 232, 232);
+    --background-color: rgb(169, 201, 201);
     --black-color: #1e1d1d;
     --text-color: #000000;
     --secondary-color: #f9ced9;
@@ -241,7 +242,6 @@ body {
     flex-wrap: wrap;
     width: 100%;
     gap: 1em;
-    
 }
 
 .skills .skill {
@@ -312,13 +312,11 @@ body {
     padding: .5em;
     border-radius: 10px;
     transition: 0.3s;
-
 }
 
 .projects-section .project-card-container:hover {
     cursor: pointer;
     transform: scale(1.03);
-
 }
 
 .projects-section .project-card{
@@ -335,7 +333,6 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: normal;
-
 }
 
 .projects-section .project-card img {
@@ -345,7 +342,6 @@ body {
     border-radius: 10px;
     border: 2px solid var(--white-color);
 }
-
 
 .project-layer h4{
     padding: .5em;
@@ -377,7 +373,6 @@ body {
     border-radius: 10px;
 }
 
-
 .projects-section .project-card:hover .project-layer h4 {
     display: block;
 }
@@ -391,9 +386,8 @@ body {
     float: left;
     border-bottom: 3px solid var(--primary-color);
     font-size: 2rem;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
-
 
 .contact-container {
     display: flex;
@@ -405,7 +399,7 @@ body {
 
 .contact-form {
     width: 48%;
-    padding: 2em;
+    padding: 1em;
     background-color: var(--background-color);
     border-radius: 10px;
 }
@@ -417,7 +411,7 @@ body {
     justify-content: center;
     gap: 1em;
     background-color: var(--background-color);
-    padding: 2em;
+    padding: 1em;
     border-radius: 10px;
 }
 
@@ -439,17 +433,16 @@ body {
     color: var(--black-color);
 }
 
-
 input[type=text], input[type=email], textarea {
     width: 100%;
-    padding: 12px;
+    padding: .5em;
     border: 1px solid var(--white-color);
     border-radius: 10px;
     box-sizing: border-box;
-    margin-top: .6em;
-    margin-bottom: 1em;
+    margin-top: .3em;
+    margin-bottom: .5em;
     resize: vertical;
-    outline: 1px solid var(--primary1);
+    outline: 1px solid transparent;
 }
 
 input[type=submit] {
@@ -458,10 +451,10 @@ input[type=submit] {
     background-color: var(--primary-color);
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding: .7em 1.2em;
+    padding: .6em 1.2em;
     border: none;
     box-shadow: 6px 6px 0 -1px var(--shadow-color );
-    color: var(--white); 
+    color: var(--white-color); 
     position: relative;
     display: inline-block;
 }
@@ -474,15 +467,17 @@ input[type=submit]:hover {
 
 footer {
     background-color: var(--shadow-color);
-    color: white;
+    color: var(--white-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 footer .footer-socials i {
-    color: white;
+    color: var(--white-color);
     padding: 0 .2em;
     font-size: xx-large;
 }
