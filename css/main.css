@@ -34,6 +34,7 @@ body {
     width: 100%;
     font-family: 'Jost', Arial, Helvetica, sans-serif;
     min-height: 100vh;
+    background-color: var(--tertiary-color);
 }
 
 .header { 
