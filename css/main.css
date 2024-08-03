@@ -22,6 +22,7 @@ a {
     --secondary-color: #f9ced9;
     --tertiary-color: #9bafd4;
     --shadow-color: #00000057;
+    --body-color:#fff2f2;
 }
 
 html {
@@ -34,7 +35,12 @@ body {
     width: 100%;
     font-family: 'Jost', Arial, Helvetica, sans-serif;
     min-height: 100vh;
+    background-color: var(--body-color);
+}
+
+.container {
     background-color: var(--tertiary-color);
+    width: 100%;
 }
 
 .header { 
@@ -42,8 +48,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
-    z-index: 5;
+    z-index: 100;
     transition: 0.25s ease;;
     padding-top: .1em;
 }
