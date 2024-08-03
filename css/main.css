@@ -157,7 +157,6 @@ body {
     margin: 0;
     border-top-left-radius: 100%;
     border-left: 10px solid var(--primary-color);
-    border-top: 10px solid var(--primary-color);
 }
 
 .services-section {
@@ -179,7 +178,6 @@ body {
     margin: 0;
     border-top-right-radius: 100%;
     border-right: 10px solid var(--primary-color);
-    border-top: 10px solid var(--primary-color);
 }
 
 .services-section .services-statement-container {
@@ -225,7 +223,7 @@ body {
 
 .skills-title {
     align-self: flex-start;
-    border-bottom: 3px solid var(--primary1);
+    border-bottom: 3px solid var(--primary-color);
     font-size: 2rem;
     margin-bottom: 1em;
 }
@@ -244,13 +242,19 @@ body {
     flex-wrap: wrap;
     width: 100%;
     gap: 1em;
+    
 }
 
 .skills .skill {
     width: 48%;
-    background-color:  var(--gray);
+    background-color:  var(--shadow-color);
     padding: 1em;
-    color: var(--white);
+    color: var(--white-color);
+    border-radius: 10px;
+}
+
+.skills .skill i {
+    color: #000000;
 }
 
 .skills-image-container {
@@ -258,10 +262,10 @@ body {
     justify-content: center;
     align-items: baseline;
     width: 50%;
-    background-color: var(--background3);
+    background-color: var(--tertiary-color);
     padding: 0;
-    border-top-left-radius: 50%;
-    border-bottom-left-radius: 50%;
+    border-top-left-radius: 100%;
+    border-left: 10px solid var(--primary-color);
 }
 
 .section-break {
