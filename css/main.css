@@ -195,7 +195,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    width: 48%;
+    width: 43%;
     gap: 1em;
     background-color: var(--tertiary-color);
     padding: 0;
@@ -206,7 +206,7 @@ body {
 }
 
 .servies-section .servies-statement-container {
-    width: 48%;
+    width: 55%;
     padding: 1em;
 }
 
@@ -227,7 +227,8 @@ body {
 .service {
     width: 48%;
     padding: .5em;
-    border: .5px solid var(--white-color);
+    border: 1px solid var(--white-color);
+    border-radius: 10px;
 }
 
 
