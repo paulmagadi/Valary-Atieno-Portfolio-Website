@@ -1,7 +1,30 @@
+:root {
+    --primary-color: #fe7300;
+    --white-color: #F6F4F9;
+    --gray-color: rgb(230, 229, 229);
+    --background-color: rgb(182, 232, 232);
+    --black-color: #1e1d1d;
+    --text-color: #000000;
+    --secondary-color: #f9ced9;
+    --tertiary-color: #9bafd4;
+    --shadow-color: #00000057;
+}
 
 @media (max-width: 900px) {
     .nav-toggle-button {
         display: flex;
+    }
+
+    .header {
+        background-color: var(--background-color);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .mobile-nav {
+        background-color: var(--white-color);
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
 
     .header .primary-button {
@@ -45,17 +68,20 @@
         font-size: 0.8rem; 
     }
 
-    .about-section {
+    .services-section {
         flex-direction: column;
         align-items: center;
     }
      
-    .about-section .about-image-container {
-        align-items: baseline;
+    .services-section .services-image-container {
         width: 100%;
     }
+
+    .services-section .services-image-container img {
+        width: 60%;
+    }
     
-    .about-section .about-statement-container {
+    .services-section .services-statement-container {
         align-items: flex-start;
         width: 100%;
         padding: 1em;
@@ -121,7 +147,7 @@
 }
 
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
     .header .header-container {
         padding: 0 1em;
     }
@@ -143,9 +169,19 @@
         border-bottom-left-radius: 0%;
     }
 
-    .about-section {
-        margin: 0;
-        border-radius: 0;
+    .services-container {
+        flex-direction: column;
+        gap: 1em;
+    }
+    
+    .service {
+        width: 100%;
+        padding: .5em 1em;
+        flex-direction: column;
+    }
+
+    .service icon {
+        font-weight: 800;
     }
 
     .skills {

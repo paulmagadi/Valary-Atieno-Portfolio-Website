@@ -73,16 +73,15 @@ body {
     font-size: 2.2rem;
 }
 
-
 .header .navbar a {
-    color: var(--black-shade);
+    color: var(--black-color);
     text-transform: uppercase;
     letter-spacing: 3px;
-    transition: var(--transition-1);
+    transition: 0.2s ease;
     font-weight: 500;
 }
 
-.header .navbar a:hover {
+.header .desktop-nav a:hover {
     border-bottom: 2px solid var(--primary-color);
 }
 
@@ -93,7 +92,6 @@ body {
 .header .desktop-nav a {
     margin-left: .5em;
 }
-
 
 .primary-button  {
     background-color: var(--primary-color);
@@ -112,19 +110,14 @@ body {
     box-shadow: 5px 5px 0 -2px var(--primary-color);
 } 
 
-.primary-button:hover .tooltiptext {
-    visibility: visible;
-}
-
 .nav-toggle-button {
     display: none;
 }
 
 .mobile-nav {
     display: none;
-    background-color: var(--white);
-    border-top: 2px solid var(--black-color);
-    border-bottom: 2px solid var(--black-color);
+    border-top: 1px solid var(--shadow-color);
+    border-bottom: 1px solid var(--shadow-color);
 }
 
 .mobile-nav a {
@@ -167,30 +160,16 @@ body {
     border-top: 10px solid var(--primary-color);
 }
 
-.hero-container::after {
-    content: " ";
-    position: absolute;
-    top: 0;
-    left: 50%;
-    bottom: 50%;
-    right: -10%;
-    background-color: var(--secondary-color);
-    transform: rotate(-45deg);
-    border-radius: 50px;
-    z-index: -1;
-    text-align: center;
-    color: rgb(255, 220, 174);
-}
-
-.servies-section {
+.services-section {
     position: relative;
     padding-top: 6em;
     background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
  
-.servies-section .servies-image-container {
+.services-section .services-image-container {
     display: flex;
     justify-content: center;
     width: 43%;
@@ -203,12 +182,12 @@ body {
     border-top: 10px solid var(--primary-color);
 }
 
-.servies-section .servies-statement-container {
+.services-section .services-statement-container {
     width: 55%;
     padding: 1em;
 }
 
-.servies-title {
+.services-title {
     padding-bottom: 1em;
     color: var(--primary-color);
     font-size: 2rem;
