@@ -247,9 +247,9 @@ body {
 
 .skills .skill {
     width: 48%;
-    background-color:  var(--shadow-color);
+    background-color:  var(--gray-color);
     padding: 1em;
-    color: var(--white-color);
+    color: var(--black-color);
     border-radius: 10px;
 }
 
@@ -269,7 +269,7 @@ body {
 }
 
 .section-break {
-    padding:6em 2em 6em 2em;
+    padding: 2em;
     width: 100%;
     background-color: var(--secondary-color);
     border-top: 10px solid var(--white-color);
@@ -307,7 +307,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: .9em;
 }
 
 .projects-section .project-card-container {
@@ -383,11 +383,8 @@ body {
 }
 
 .contact-section {
-    padding: 6em 2em 1em 2em;
-    margin-bottom: 3em;
+    padding: 6em 2em 3em 2em;
     background-color: var(--gray-color);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .contact-title {
@@ -485,8 +482,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 2em;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 footer .footer-socials i {

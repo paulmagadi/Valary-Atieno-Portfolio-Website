@@ -120,8 +120,13 @@
     
     .projects-section .project-card-container {
         width: 100%;
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+
+    .projects-section .project-card-container img {
+        width: 100%;
+        height: auto;
     }
 
     .contact-section {
@@ -195,11 +200,11 @@
     }
 
     .skills {
-        gap: .5em;
+        gap: .3em;
     }
     
     .skills .skill {
-        width: 47%;
+        width: 48%;
         padding: 1em;
     }
     
