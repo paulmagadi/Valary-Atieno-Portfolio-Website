@@ -101,6 +101,10 @@
         width: 100%;
     }
 
+    .skills-image-container img {
+        width: 60%;
+    }
+
     .section-break {
         padding: 1em;
     }
@@ -185,6 +189,9 @@
         font-weight: 800;
     }
 
+    .skills-image-container img {
+        width: 50%;
+    }
 
     .skills {
         gap: .5em;
