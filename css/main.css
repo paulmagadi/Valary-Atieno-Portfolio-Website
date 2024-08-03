@@ -157,13 +157,13 @@ body {
     padding: 0;
     margin: 0;
     border-top-left-radius: 100%;
-    border-left: 10px solid var(--primary-color);
+    border-left: 10px solid var(--white-color);
 }
 
 .services-section {
     position: relative;
     padding-top: 6em;
-    background-color: var(--secondary-color);
+    background-color: var(--gray-color);
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -178,7 +178,7 @@ body {
     padding: 0;
     margin: 0;
     border-top-right-radius: 100%;
-    border-right: 10px solid var(--primary-color);
+    border-right: 10px solid var(--white-color);
 }
 
 .services-section .services-statement-container {
@@ -264,15 +264,15 @@ body {
     background-color: var(--tertiary-color);
     padding: 0;
     border-top-left-radius: 100%;
-    border-left: 10px solid var(--primary-color);
+    border-left: 10px solid var(--white-color);
 }
 
 .section-break {
     padding:6em 2em 6em 2em;
     width: 100%;
     background-color: var(--secondary-color);
-    border-top: 10px solid var(--primary-color);
-    border-bottom: 10px solid var(--primary-color);
+    border-top: 10px solid var(--white-color);
+    border-bottom: 10px solid var(--white-color);
 }
 
 .section-break div {
@@ -290,7 +290,7 @@ body {
 }
 
 .projects-section {
-    background-color: var(--gray-color);
+    background-color: var(--background-color);
     padding: 6em 2em 2em 2em;
 }
 
@@ -315,6 +315,7 @@ body {
     padding: .5em;
     border-radius: 10px;
     transition: 0.3s;
+    background-color: var(--gray-color)
 }
 
 .projects-section .project-card-container:hover {
@@ -346,7 +347,7 @@ body {
     border: 2px solid var(--white-color);
 }
 
-.project-layer h4{
+.project-layer h4 {
     padding: .5em;
     background-color: var(--primary-color);
     border-radius: 10px;
@@ -381,8 +382,11 @@ body {
 }
 
 .contact-section {
-    padding: 6em 2em 5em 2em;
-    background-color: var(--white-color);
+    padding: 6em 2em 1em 2em;
+    margin-bottom: 3em;
+    background-color: var(--gray-color);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .contact-title {
