@@ -15,7 +15,7 @@ a {
     --primary-color: #fe7300;
     --white-color: #F6F4F9;
     --gray-color: rgb(230, 229, 229);
-    --background-color: rgb(182, 232, 232);
+    /* --background-color: rgb(182, 232, 232); */
     --background-color: rgb(169, 201, 201);
     --black-color: #1e1d1d;
     --text-color: #000000;
@@ -75,7 +75,7 @@ body {
 }
 
 .header .navbar a {
-    color: var(--black-color);
+    color: var(--text-color);
     text-transform: uppercase;
     letter-spacing: 3px;
     transition: 0.2s ease;
@@ -188,7 +188,7 @@ body {
 
 .services-title {
     padding-bottom: 1em;
-    color: var(--primary-color);
+    color: var(--text-color);
     font-size: 2rem;
 }
 
@@ -223,7 +223,7 @@ body {
 
 .skills-title {
     align-self: flex-start;
-    border-bottom: 3px solid var(--primary-color);
+    color: var(--text-color);
     font-size: 2rem;
     margin-bottom: 1em;
 }
@@ -271,8 +271,8 @@ body {
     padding:6em 2em 6em 2em;
     width: 100%;
     background-color: var(--secondary-color);
-    border-top: 10px solid var(--white);
-    border-bottom: 10px solid var(--white);
+    border-top: 10px solid var(--primary-color);
+    border-bottom: 10px solid var(--primary-color);
 }
 
 .section-break div {
@@ -284,6 +284,9 @@ body {
 
 .section-break div a {
     margin: .5em 0;
+    background-color: var(--shadow-color);
+    border: .5px solid var(--gray-color);
+    border-radius: 10px;
 }
 
 .projects-section {
@@ -295,6 +298,7 @@ body {
     float: left;
     font-size: 2rem;
     margin-bottom: 1em;
+    color: var(--text-color);
 }
 
 .project-section-container {
@@ -308,7 +312,6 @@ body {
 .projects-section .project-card-container {
     width: 32%;
     border: 2px solid var(--white-color);
-    /* background-color: var(--shadow-color); */
     padding: .5em;
     border-radius: 10px;
     transition: 0.3s;
@@ -384,7 +387,7 @@ body {
 
 .contact-title {
     float: left;
-    border-bottom: 3px solid var(--primary-color);
+    color: var(--text-color);
     font-size: 2rem;
     margin-bottom: .5em;
 }
@@ -430,7 +433,7 @@ body {
 }
 
 .contact-info .info-title {
-    color: var(--black-color);
+    color: var(--text-color);
 }
 
 input[type=text], input[type=email], textarea {
@@ -463,6 +466,11 @@ input[type=submit]:hover {
     background-color: var(--shadow-color);
     box-shadow: 5px 5px 0 -2px var(--primary-color);
     color: var(--white-color);
+}
+
+label {
+    color: var(--text-color);
+    font-weight: 500;
 }
 
 footer {

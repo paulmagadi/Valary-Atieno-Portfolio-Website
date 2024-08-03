@@ -17,7 +17,7 @@ navToggler.addEventListener('click', () => {
 const header = document.querySelector(".header");
 
 const activeHeader = function () {
-  window.scrollY > 40 ? header.classList.add("active")
+  window.scrollY > 10 ? header.classList.add("active")
     : header.classList.remove("active");
 }
 
