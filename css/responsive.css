@@ -2,7 +2,6 @@
     --primary-color: #fe7300;
     --white-color: #F6F4F9;
     --gray-color: rgb(230, 229, 229);
-    /* --background-color: rgb(182, 232, 232); */
     --background-color: rgb(169, 201, 201);
     --black-color: #1e1d1d;
     --text-color: #000000;
@@ -11,6 +10,7 @@
     --shadow-color: #00000057;
 }
 
+/* Min-width 1500px  */
 @media (min-width:1500px) {
     .container {
         max-width: 1200px;
@@ -23,6 +23,7 @@
     }
 }
 
+/* max-width 900px */
 @media (max-width: 900px) {
     .nav-toggle-button {
         display: flex;
@@ -169,7 +170,7 @@
     
 }
 
-
+/* max-width 600px */
 @media (max-width: 600px) {
     .header .header-container {
         padding: 0 1em;

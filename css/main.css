@@ -11,11 +11,11 @@ a {
     text-decoration: none;
 }
 
+/* CONSTANT COLORS  */
 :root {
     --primary-color: #fe7300;
     --white-color: #F6F4F9;
     --gray-color: rgb(230, 229, 229);
-    /* --background-color: rgb(182, 232, 232); */
     --background-color: rgb(169, 201, 201);
     --black-color: #1e1d1d;
     --text-color: #000000;
@@ -38,11 +38,14 @@ body {
     background-color: var(--body-color);
 }
 
+/* PAGE CONTAINER  */
 .container {
     background-color: var(--tertiary-color);
     width: 100%;
+    max-width: 1500px;
 }
 
+/* HEADER STYLE*/
 .header { 
     background-color: transparent; 
     position: fixed;
@@ -82,6 +85,7 @@ body {
     font-size: 2.2rem;
 }
 
+/* NAVIGATION LINKS */
 .header .navbar a {
     color: var(--text-color);
     text-transform: uppercase;
@@ -102,6 +106,7 @@ body {
     margin-left: .5em;
 }
 
+/* PRIMARY BUTTON */
 .primary-button  {
     background-color: var(--primary-color);
     text-transform: uppercase;
@@ -119,10 +124,12 @@ body {
     box-shadow: 5px 5px 0 -2px var(--primary-color);
 } 
 
+/* NAVIGATION TOGGLE BUTTON */
 .nav-toggle-button {
     display: none;
 }
 
+/* SMALL DEVICES NAVIGATION */
 .mobile-nav {
     display: none;
     border-top: 1px solid var(--shadow-color);
@@ -139,6 +146,7 @@ body {
  } 
 
 
+ /* PROFILE SECTION  */
 .profile-container {
     position: relative;
     background-color: var(--background-color);
@@ -168,6 +176,7 @@ body {
     border-left: 10px solid var(--white-color);
 }
 
+/* SERVICES SECTION  */
 .services-section {
     position: relative;
     padding-top: 6em;
@@ -222,6 +231,8 @@ body {
     color: var(--primary-color);
 }
 
+
+/* SKILLS SECTION  */
 .skills-section {
     display: flex;
     justify-content: space-between;
@@ -275,6 +286,7 @@ body {
     border-left: 10px solid var(--white-color);
 }
 
+/* SECTION BREAK  */
 .section-break {
     padding: 2em;
     width: 100%;
@@ -297,6 +309,8 @@ body {
     border-radius: 10px;
 }
 
+
+/* PROJECTS SECTION  */
 .projects-section {
     background-color: var(--background-color);
     padding: 6em 2em 2em 2em;
@@ -389,6 +403,8 @@ body {
     display: block;
 }
 
+
+/* CONTACTS SECTION  */
 .contact-section {
     padding: 6em 2em 3em 2em;
     background-color: var(--gray-color);
@@ -409,6 +425,7 @@ body {
     
 }
 
+/* CONTACT FORM  */
 .contact-form {
     width: 48%;
     padding: 1em;
@@ -427,6 +444,8 @@ body {
     border-radius: 10px;
 }
 
+
+/* CONTACT INFORMATION  */
 .contact-info {
     display: flex;
     justify-content: flex-start;
@@ -482,6 +501,8 @@ label {
     font-weight: 500;
 }
 
+
+/* FOOTER   */
 footer {
     background-color: var(--shadow-color);
     color: var(--white-color);
