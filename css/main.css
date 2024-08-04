@@ -139,7 +139,7 @@ body {
  } 
 
 
-.hero-container {
+.profile-container {
     position: relative;
     background-color: var(--background-color);
     overflow: hidden;
@@ -148,7 +148,7 @@ body {
     justify-content: space-between;
 }
 
-.hero-text-container {
+.profile-text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,7 +156,7 @@ body {
     padding: 0 0 0 2em;
 }
 
-.hero-banner-container {
+.profile-banner-container {
     display: flex;
     justify-content: center;
     width: 50%;

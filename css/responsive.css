@@ -52,20 +52,20 @@
         display: block;
     }
 
-    .hero-container {
+    .profile-container {
         flex-direction: column;
         gap: 3em;
         align-items: center;
     }
     
-    .hero-text-container {
+    .profile-text-container {
         justify-content: center;
         align-items: center;
         width: 100%;
     
     }
     
-    .hero-banner-container {
+    .profile-banner-container {
         justify-content: center;
         width: 100%;
         align-items: center;
@@ -183,12 +183,12 @@
         font-size: 1.8rem;
     }
 
-    .hero-text-container {
+    .profile-text-container {
         align-items: flex-start;
         padding: 1em;
     }
 
-    .hero-banner-container {
+    .profile-banner-container {
         border-bottom-left-radius: 0%;
     }
 
